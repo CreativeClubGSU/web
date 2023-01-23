@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Creative Club GSU',
-  tagline: 'Remedy For Humanity',
+  title: 'Creative Club Gombe State University',
+  tagline: 'Creativity, A  Remedy For Humanity',
   url: 'https://CreativeClubGSU.github.io',
   baseUrl: '/web/',
   onBrokenLinks: 'throw',
@@ -26,12 +26,69 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+   // Creative Club blogs
+   plugins: [
+    /** Poetry */
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'poetry',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'poetry',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './poetry',
+      },
+    ],
+     /**peams section */
+     [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'poems',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'poems',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './poems',
+      },
+    ],
+   ],
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        // /** React page Added */
+        pages: {
+          path: 'src/pages/members',
+          routeBasePath: '/',
+          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+          ],
+          mdxPageComponent: '@theme/MDXPage',
+          rehypePlugins: [],
+          beforeDefaultRemarkPlugins: [],
+          beforeDefaultRehypePlugins: [],
+        },
+        //end
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -60,21 +117,32 @@ const config = {
         title: 'C C GSU',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Writing',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          /* blogs */
+           {
+            type: 'dropdown',
+            label: 'Blogs',
+            position: 'left',
+            items: [
+              {to: '/blog', label: 'prose'},
+              {to: '/poems', label: 'poems'},
+              {to: '/poetry', label: 'poetry' },          
+            ],
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
+          
         ],
       },
       footer: {
@@ -94,7 +162,7 @@ const config = {
             items: [
               {
                 label: 'FaceBook',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://web.facebook.com/groups/770686350483139/?mibextid=HsNCOg',
               },
               {
                 label: 'Linkedin',
@@ -113,14 +181,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Creative Club GSU, Built By AdamsGeeky And Muby Graphic `,
+        copyright: `Copyright © ${new Date().getFullYear()} Creative Club GSU`,
       },
       prism: {
         theme: lightCodeTheme,
