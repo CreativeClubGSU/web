@@ -73,22 +73,6 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         // /** React page Added */
-        pages: {
-          path: 'src/pages/members',
-          routeBasePath: '/',
-          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
-          exclude: [
-            '**/_*.{js,jsx,ts,tsx,md,mdx}',
-            '**/_*/**',
-            '**/*.test.{js,jsx,ts,tsx}',
-            '**/__tests__/**',
-          ],
-          mdxPageComponent: '@theme/MDXPage',
-          rehypePlugins: [],
-          beforeDefaultRemarkPlugins: [],
-          beforeDefaultRehypePlugins: [],
-        },
-        //end
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -136,11 +120,6 @@ const config = {
               {to: '/poems', label: 'poems'},
               {to: '/poetry', label: 'poetry' },          
             ],
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
           },
           
         ],

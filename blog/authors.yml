@@ -8,7 +8,7 @@ yangshun:
   name: Yangshun Tay
   title: Front End Engineer @ Facebook
   url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+  image_url: '../img/logo.png'
 
 slorber:
   name: Sébastien Lorber

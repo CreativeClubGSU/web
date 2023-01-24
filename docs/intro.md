@@ -2,46 +2,28 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction to Writing
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Introduction to Writing is a foundational course that covers the basic
 
-## Getting Started
+- elements of writing, 
+- including grammar, 
+- sentence structure, 
 
-Get started by **creating a new site**.
+Students will learn how to organize their thoughts and ideas effectively, and how to express themselves clearly and concisely.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+This course will also cover the different types of writing, such as fiction, poetry, and non-fiction, and students will learn how to develop their own writing style and voice.
 
-### What you'll need
+Additionally, students will be introduced to the importance of research and fact-checking in writing, and will learn how to gather information from reliable sources.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+They will also learn about the different types of literary devices, 
+such as 
+- descriptive language, 
+- dialogue,  
+- character development. 
 
-## Generate a new site
+Through writing exercises and in-class discussions, students will have the opportunity to practice and improve their writing skills.
 
-Generate a new Docusaurus site using the **classic template**.
+At the end of this course, students will have gained a solid understanding of the fundamentals of writing and will be prepared to take on more advanced writing courses. 
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+They will have developed their writing skills and will be better equipped to express themselves effectively in writing.

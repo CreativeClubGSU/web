@@ -1,8 +1,5 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
+ /* * CSS files with the .module.css suffix will be treated as CSS modules */
+ /* * and scoped locally. */
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -21,3 +18,63 @@
   align-items: center;
   justify-content: center;
 }
+
+
+  /* ----------------------------------------------------- */
+  /* myCustomCSS */
+  .myHeroContainer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    background-color: #f5f4f4;
+    width: 100%;
+    overflow: hidden;
+    padding: 2.5rem 6rem;
+  }
+  .leftContainer {
+    padding: 3rem 0 0 1rem;
+    font-size: 40px;
+    flex: 2;
+  }
+  .leftContainer_h1 {
+    color: #2c0558;
+    font-size: 4rem;
+  }
+  .leftContainer_p {
+    color: #2c0558;
+    font-size: 1.5rem;
+  }
+  .typer {
+    width: 13rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .hero_a {
+    text-decoration: none;
+    color: white;
+  }
+  .hero_a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  @media screen and (max-width: 966px) {
+    .myHeroContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin: 5px;
+    padding: 0;
+    }
+    .typer{
+      text-align: center;
+      font-size: small;
+    }
+    .leftContainer_h1 {
+      color: #2c0558;
+      font-size: 1.5rem;
+    }
+  }
+  

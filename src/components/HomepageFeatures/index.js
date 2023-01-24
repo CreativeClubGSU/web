@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: ' Humility and Dedication',
+    Svg: require('@site/static/img/collaborators.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The Creative Club Gombe State University (CC GSU) where creativity, humility and dedication come together to reawaken the souls of imaginative minds and better society. Connect, collaborate and grow with like-minded individuals
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/creative_woman.svg').default,
+    title: 'Sacrifice and Accountability',
+    Svg: require('@site/static/img/making_art.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+         CC GSU encourages sacrifice and accountability as a core values, the Club's mission to promote artistic and humanistic values within the community, members are encouraged to be willing to make sacrifices and take responsibility for their actions.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/creative_thinking.svg').default,
+    title: 'Integrity, Inclusivity and Innovation',
+    Svg: require('@site/static/img/team_collaboration.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       The CC GSU emphasizes integrity, inclusivity and innovation, promoting an inclusive environment and encouraging innovation. to come up with new ideas and approach to create a better society. 
       </>
     ),
   },
@@ -53,6 +50,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className={styles.values}> Core values </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
