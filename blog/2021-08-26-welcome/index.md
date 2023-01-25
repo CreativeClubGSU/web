@@ -1,25 +1,14 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+authors: [AdamsGeeky]
+tags: [hello,]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+# New Nigeria 
 
-Simply add Markdown files (or folders) to the `blog` directory.
+Nigeria has the potential to become a leader in the world of art, culture, and creativity, but for this to happen, it is crucial for the creative voices of its citizens to be heard and valued. One of the most effective ways to achieve this is by utilizing technology, particularly the internet and websites.
 
-Regular blog authors can be added to `authors.yml`.
+Websites serve as an online portfolio, allowing artists and creatives to showcase their work, promote their talent, and reach a wider audience. They also provide a platform for receiving feedback, establishing a professional identity, and even selling work. Furthermore, technology also enables collaboration between artists and creatives across different disciplines, leading to new and exciting forms of expression.
 
-The blog post date can be extracted from filenames, such as:
-
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
-
-A blog post folder can be convenient to co-locate blog post images:
-
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
-
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+In short, technology plays a vital role in amplifying the creative voices in Nigeria, allowing for the country to reach its full potential in the world of art, culture and creativity.
