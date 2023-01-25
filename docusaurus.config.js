@@ -73,6 +73,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: 'G-3R8W3VSX09',
+          anonymizeIP: true,
+        },
         // /** React page Added */
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
