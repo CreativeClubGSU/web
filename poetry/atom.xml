@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://CreativeClubGSU.github.io/web/poetry</id>
+    <title>Creative Club Gombe State University Blog</title>
+    <updated>2023-01-25T03:09:53.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://CreativeClubGSU.github.io/web/poetry"/>
+    <subtitle>Creative Club Gombe State University Blog</subtitle>
+    <icon>https://CreativeClubGSU.github.io/web/img/favicon/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[peotry here]]></title>
+        <id>/index</id>
+        <link href="https://CreativeClubGSU.github.io/web/poetry/index"/>
+        <updated>2023-01-25T03:09:53.000Z</updated>
+    </entry>
+</feed>

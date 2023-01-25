@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[3230],{3336:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"peotry here","permalink":"/web/poetry/index"}]}')}}]);
