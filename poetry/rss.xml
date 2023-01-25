@@ -4,7 +4,7 @@
         <title>Creative Club Gombe State University Blog</title>
         <link>https://CreativeClubGSU.github.io/web/poetry</link>
         <description>Creative Club Gombe State University Blog</description>
-        <lastBuildDate>Wed, 25 Jan 2023 03:29:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Jan 2023 04:58:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[peotry here]]></title>
             <link>https://CreativeClubGSU.github.io/web/poetry/index</link>
             <guid>/index</guid>
-            <pubDate>Wed, 25 Jan 2023 03:29:46 GMT</pubDate>
+            <pubDate>Wed, 25 Jan 2023 04:58:54 GMT</pubDate>
         </item>
     </channel>
 </rss>
