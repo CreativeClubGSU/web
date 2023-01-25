@@ -3,11 +3,14 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  color: #2c0558;
+
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+  
 }
 .values{
   text-align: center;
