@@ -34,7 +34,7 @@ function MyHero() {
           Creative Club  GSU
         </h1>
         <p className={styles.leftContainer_p}> 
-          <div className={styles.motto}>A Remedy For Humanity <br/>
+          <div className={styles.motto}>Creativity, A Remedy For Humanity <br/>
           <br/>
           </div>
         <div className={styles.logo}>

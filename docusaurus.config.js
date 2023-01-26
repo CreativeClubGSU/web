@@ -83,14 +83,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://creativeclubgsu.github.io/web/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://creativeclubgsu.github.io/web/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -158,11 +158,11 @@ const config = {
               },
               {
                 label: 'Linkedin',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://creativeclubgsu.github.io/web/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://creativeclubgsu.github.io/web/',
               },
             ],
           },
