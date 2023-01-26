@@ -3,7 +3,7 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
-  color: #2c0558;
+  /* color: #2c0558; */
 
 }
 
@@ -14,7 +14,7 @@
 }
 .values{
   text-align: center;
-  color: #2c0558;
+  /* color: #2c0558; */
   font-weight: 900;
   font-size: 2em;
 }
