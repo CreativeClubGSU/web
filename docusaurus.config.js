@@ -108,7 +108,7 @@ const config = {
           '<span style="color: #fbd">Creative Day THEME: Role Of Creative Voices</span>, <br/> Date: 27 jan, 2023 9:00Am <br/>Venue: New Multi-purpose Hall Gombe State University',
         backgroundColor: '#fafbfc',
         textColor: '#095',
-        isCloseable: false,
+        isCloseable: true,
       },
       navbar: {
         title: 'C C GSU',
@@ -144,7 +144,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Writing Tutorial',
                 to: '/docs/intro',
               },
             ],
