@@ -42,7 +42,7 @@ function MyHero() {
         </div> 
           <Typewriter
             options={{
-              strings: ['in the medium of orienting the public for the betterment of our society.' ],
+              strings: ['the medium of orienting the public for the betterment of our society.' ],
               autoStart: true,
               loop: true,
             }}
