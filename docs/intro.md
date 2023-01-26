@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction to Writing
 
-Introduction to Writing is a foundational course that covers the basic
+Introduction to Writing is a foundational training that covers the basic
 
 - elements of writing, 
 - including grammar, 
@@ -24,6 +24,6 @@ such as
 
 Through writing exercises and in-class discussions, students will have the opportunity to practice and improve their writing skills.
 
-At the end of this course, students will have gained a solid understanding of the fundamentals of writing and will be prepared to take on more advanced writing courses. 
+At the end of this training, students will have gained a solid understanding of the fundamentals of writing and will be prepared to take on more advanced writing training. 
 
 They will have developed their writing skills and will be better equipped to express themselves effectively in writing.
