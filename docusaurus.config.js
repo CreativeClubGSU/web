@@ -102,14 +102,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: 'support_us',
-        content:
-          '<span style="color: #fbd">Creative Day THEME: Role Of Creative Voices</span>, <br/> Date: 27 jan, 2023 9:00Am <br/>Venue: New Multi-purpose Hall Gombe State University',
-        backgroundColor: '#fafbfc',
-        textColor: '#095',
-        isCloseable: true,
-      },
+      // announcementBar: {
+      //   id: 'support_us',
+      //   content:
+      //     '<span style="color: #fbd">Creative Day THEME: Role Of Creative Voices</span>, <br/> Date: 27 jan, 2023 9:00Am <br/>Venue: New Multi-purpose Hall Gombe State University',
+      //   backgroundColor: '#fafbfc',
+      //   textColor: '#095',
+      //   isCloseable: true,
+      // },
       navbar: {
         title: 'C C GSU',
         logo: {

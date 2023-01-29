@@ -5,6 +5,6 @@ authors: [AuwalKumo]
 tags: [Writing, poems]
 ---
 
-![](img/ccgsu.jpg)
+<!-- ![](img/ccgsu.jpg) -->
 
 ![](kumo/20-11-2022.jpg)

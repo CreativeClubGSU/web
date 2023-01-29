@@ -4,7 +4,7 @@ title: QUOTES
 tags: [Quotes]
 ---
 
-![](img/ccgsu.jpg)
+<!-- ![](img/ccgsu.jpg) -->
 ![](Qoutes/Abdulllahi.jpg)
 ![](Qoutes/Akko.jpg)
 ![](Qoutes/amaraci.jpg)
