@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: ' Humility and Dedication',
-    Svg: require('@site/static/img/collaborators.svg').default,
+    Svg: require('@site/static/img/Creative.svg').default,
     description: (
       <>
         The Creative Club Gombe State University (CC GSU) where creativity, humility and dedication come together to reawaken the souls of imaginative minds and better society. Connect, collaborate and grow with like-minded individuals
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Sacrifice and Accountability',
-    Svg: require('@site/static/img/making_art.svg').default,
+    Svg: require('@site/static/img/team_collaboration.svg').default,
     description: (
       <>
          CC GSU encourages sacrifice and accountability as a core values, the Club's mission to promote artistic and humanistic values within the community, members are encouraged to be willing to make sacrifices and take responsibility for their actions.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Integrity, Inclusivity and Innovation',
-    Svg: require('@site/static/img/team_collaboration.svg').default,
+    Svg: require('@site/static/img/Collab.svg').default,
     description: (
       <>
        The CC GSU emphasizes integrity, inclusivity and innovation, promoting an inclusive environment and encouraging innovation. to come up with new ideas and approach to create a better society. 
